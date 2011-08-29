@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Documents and Settings\1tormar\Desktop\OnlineDocs\DotNet Ninja\DotNetNinjaQuiz\DotNetNinjaQuizLib.Tests.nunit" total="5" failures="0" not-run="0" date="2009-01-16" time="16:21:46">
+  <environment nunit-version="2.4.8.0" clr-version="2.0.50727.3053" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Documents and Settings\1tormar\Desktop\OnlineDocs\DotNet Ninja\DotNetNinjaQuiz\DotNetNinjaQuizLib.Test\bin\Debug" machine-name="C1TORMAR2" user="1tormar" user-domain="CMACONTIKI" />
+  <culture-info current-culture="nb-NO" current-uiculture="en-US" />
+  <test-suite name="C:\Documents and Settings\1tormar\Desktop\OnlineDocs\DotNet Ninja\DotNetNinjaQuiz\DotNetNinjaQuizLib.Tests.nunit" success="True" time="3.500" asserts="0">
+    <results>
+      <test-suite name="C:\Documents and Settings\1tormar\Desktop\OnlineDocs\DotNet Ninja\DotNetNinjaQuiz\DotNetNinjaQuizLib.Test\bin\Debug\DotNetNinjaQuizLib.Test.dll" success="True" time="3.484" asserts="0">
+        <results>
+          <test-suite name="DotNetNinjaQuizLib" success="True" time="3.484" asserts="0">
+            <results>
+              <test-suite name="Test" success="True" time="3.484" asserts="0">
+                <results>
+                  <test-suite name="QuestionDistribution" success="True" time="2.922" asserts="0">
+                    <results>
+                      <test-case name="DotNetNinjaQuizLib.Test.QuestionDistribution.Test" executed="True" success="True" time="0.828" asserts="4" />
+                    </results>
+                  </test-suite>
+                  <test-suite name="Questions" success="True" time="0.531" asserts="0">
+                    <results>
+                      <test-case name="DotNetNinjaQuizLib.Test.Questions.Counts" executed="True" success="True" time="0.062" asserts="5" />
+                      <test-case name="DotNetNinjaQuizLib.Test.Questions.GetDifficultQuestion" executed="True" success="True" time="0.016" asserts="2" />
+                      <test-case name="DotNetNinjaQuizLib.Test.Questions.GetEasyQuestion" executed="True" success="True" time="0.016" asserts="2" />
+                      <test-case name="DotNetNinjaQuizLib.Test.Questions.GetMediumQuestion" executed="True" success="True" time="0.016" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

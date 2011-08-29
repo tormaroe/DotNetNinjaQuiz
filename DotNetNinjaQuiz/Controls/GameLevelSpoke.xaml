@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="DotNetNinjaQuiz.Controls.GameLevelSpoke"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="auto" Width="auto">
+    <Grid>
+        <StackPanel Orientation="Horizontal" x:Name="_panel">
+            <TextBlock x:Name="_levelNumber" Text="2" FontFamily="Verdana" FontSize="16" FontWeight="Bold"
+                               FlowDirection="RightToLeft" Margin="10,0,0,0" Width="40" />
+            <TextBlock x:Name="_completedIndicator" Text="*" FontFamily="Verdana" FontSize="16" FontWeight="Bold"
+                                Margin="10,0,10,0" />
+            <TextBlock x:Name="_levelDescription" Text="$200" FontFamily="Verdana" FontSize="16"  FontWeight="Bold"
+                               FlowDirection="LeftToRight" Margin="0,0,10,0" />
+        </StackPanel>
+    </Grid>
+</UserControl>

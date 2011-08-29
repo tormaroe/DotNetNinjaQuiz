@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="DotNetNinjaQuizLib.Domain.DifficultyDecider_Difficult" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\DifficultyDecider_Difficult.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Domain.DifficultyDecider_Easy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\DifficultyDecider_Easy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Domain.DifficultyDecider_EasyToMedium" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\DifficultyDecider_EasyToMedium.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Domain.DifficultyDecider_Medium" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\DifficultyDecider_Medium.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Domain.DifficultyDecider_MediumToHard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\DifficultyDecider_MediumToHard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Domain.GameLevel" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\GameLevel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Domain.QuizPlayer" Collapsed="true">
+    <Position X="1.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\QuizPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Domain.QuizProgress" Collapsed="true">
+    <Position X="1.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\QuizProgress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Domain.QuizQuestion" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAQAAgAAAAAAEAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\QuizQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Domain.QuizSession" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQ=</HashCode>
+      <FileName>Domain\QuizSession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Domain.UsageInfo" Collapsed="true">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAQAAAAAAAAQAAAAAAAQAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\UsageInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Factories.GameLevelFactory" Collapsed="true">
+    <Position X="10.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\GameLevelFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Persistance.ObjectDatabaseQuestionRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAAAAAAABACAACAAABAAAAAEAAAAAAQAAA=</HashCode>
+      <FileName>Persistance\ObjectDatabaseQuestionRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DotNetNinjaQuizLib.Persistance.QuestionRepositoryFactory" Collapsed="true">
+    <Position X="9.25" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persistance\QuestionRepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DotNetNinjaQuizLib.Domain.IDecideDifficultyForGameLevel" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\IDecideDifficultyForGameLevel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DotNetNinjaQuizLib.Persistance.IQuestionRepository" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABACAAAAAABAAAAAEAAAAAAQAAA=</HashCode>
+      <FileName>Persistance\IQuestionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DotNetNinjaQuizLib.Domain.DifficultyLevel" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAkABA=</HashCode>
+      <FileName>Domain\DifficultyLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

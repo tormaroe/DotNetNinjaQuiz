@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizImporter", "QuizImporter\QuizImporter.csproj", "{3823BAFA-4C14-40BD-B715-1CD6A5463809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNinjaQuizLib", "DotNetNinjaQuizLib\DotNetNinjaQuizLib.csproj", "{997E2EEA-8710-4A51-8034-9989825E3917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNinjaQuizLib.Test", "DotNetNinjaQuizLib.Test\DotNetNinjaQuizLib.Test.csproj", "{C9245409-2482-45EA-A7D2-9CA0F8440C27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizManager", "QuizManager\QuizManager.csproj", "{6FA4AC19-A07E-40F0-BFE2-6E873575B76F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNinjaQuiz", "DotNetNinjaQuiz\DotNetNinjaQuiz.csproj", "{267E27AA-6782-430E-B38B-B11BEC3A4B02}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DotNetNinjaQuizInstaller", "DotNetNinjaQuizInstaller\DotNetNinjaQuizInstaller.vdproj", "{A24174F6-52C5-4276-B08E-E6505A681D67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extra content for installer", "Extra content for installer", "{E96ECACA-A466-4256-9D3C-4241A007C799}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3823BAFA-4C14-40BD-B715-1CD6A5463809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3823BAFA-4C14-40BD-B715-1CD6A5463809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3823BAFA-4C14-40BD-B715-1CD6A5463809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3823BAFA-4C14-40BD-B715-1CD6A5463809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997E2EEA-8710-4A51-8034-9989825E3917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997E2EEA-8710-4A51-8034-9989825E3917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997E2EEA-8710-4A51-8034-9989825E3917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997E2EEA-8710-4A51-8034-9989825E3917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9245409-2482-45EA-A7D2-9CA0F8440C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9245409-2482-45EA-A7D2-9CA0F8440C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9245409-2482-45EA-A7D2-9CA0F8440C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9245409-2482-45EA-A7D2-9CA0F8440C27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA4AC19-A07E-40F0-BFE2-6E873575B76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA4AC19-A07E-40F0-BFE2-6E873575B76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA4AC19-A07E-40F0-BFE2-6E873575B76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA4AC19-A07E-40F0-BFE2-6E873575B76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{267E27AA-6782-430E-B38B-B11BEC3A4B02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267E27AA-6782-430E-B38B-B11BEC3A4B02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267E27AA-6782-430E-B38B-B11BEC3A4B02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267E27AA-6782-430E-B38B-B11BEC3A4B02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24174F6-52C5-4276-B08E-E6505A681D67}.Debug|Any CPU.ActiveCfg = Debug
+		{A24174F6-52C5-4276-B08E-E6505A681D67}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

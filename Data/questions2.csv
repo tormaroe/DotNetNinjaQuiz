@@ -1,0 +1,215 @@
+Question,Correct,False1,False2,False3,Difficulty
+What is the name of a blog about productivity tips and ideas?,lifehacker.com,lifejacket.com,slashdot.org,stackoverflow.com,1
+What is the name of Jeff Atwoods blog?,Coding Horror,Coding Error,Syntax Error,Jeff's Blog,1
+Who is the lead developer behind Stackoverflow.com?,Jeff Atwood,Jason Alexander,Scott Allen,Aaron Erickson,1
+Who is the author of the blog Joel on Software?,Joel Spolsky,Joel Spooner,Joel Johnsen,Joel Software,1
+What does Microsoft MVP stand for?,Most Valuable Professional,Most Valuable Player,Model View Presenter,Most Valuable Primat,1
+What does Scott Hanselman call his podcast?,Hanselminutes,Hanselhour,Hanselbreak,The Hansel Show,1
+What is a popular zip utility?,7-Zip,6-Zip,5-Zip,8-Zip,1
+What is the most popular developer plugin for FireFox called?,Firebug,FlameFox,FireDog,Firedev,1
+What's the name of a free image and photo editing software developed in .NET?,Paint.NET,Sprint.NET,Paint Shop Pro,Paintapalooza,1
+A variable declared inside a method is called what?,a local variable,a static variable,a private variable,an instance variable,1
+Defining two methods with the same name but with different parameters is called what?,Overloading,Loading,Multiplexing,Duplexing,1
+Every class directly or indirectly extends what other class?,Object,System,Drawing,Console,1
+Exception objects are derived from what class?,Exception,Event,Catch,Try,1
+In C# Thread.Sleep(time) measures time in:,milliseconds,seconds,minutes,nanoseconds,1
+Class String and the Char structure found in which namespace?,System,System.Chars,System.Text,System.Strings,1
+"When an .aspx page is requested from the web server, the out put will be rendered to browser in what format?",HTML,XML,JSP,WML,1
+What does WAN stand for?,Wide Area Network,World Area Network,Wide Artificial Network,Wide Access Network,1
+What does CSS stand for?,Cascading Style Sheets,Colorful Style Sheets,Computer Style Sheets,Cascade Style Sheets,1
+What does SQL stand for?,Structured Query Language,Structured Question Language,Strong Question Language,Strong Query Language,1
+Which SQL statement is used to extract data from a database?,SELECT,EXTRACT,GET,QUERY,1
+Which SQL statement is used to update data in a database?,UPDATE,SAVE AS,MODIFY,SAVE,1
+Which SQL statement is used to delete data from a database?,DELETE,DROP,TRUNCATE,REMOVE,1
+Which SQL statement is used to insert new data in a database?,INSERT,ADD INTO,ADD RECORD,ADD NEW,1
+Which SQL statement is used to return only different values?,SELECT DISTINCT,SELECT DIFFERENT,SELECT INDENTITY,SELECT UNIQUE,1
+Which SQL keyword is used to sort the result-set?,ORDER BY,ORDER,SORT,SORT BY,1
+What does XML stand for?,eXtensible Markup Language,X-Markup Language,Example Markup Language,eXtra Modern Link,1
+All types derive from a single base type called?,System.Object,System.Root,System.Base,System.Type,1
+What is the minimum number of assemblies a .NET application can have?,1,0,2,3,1
+"If you want to ask the user to select between two or more mutually exclusive options, you would employ which of the following controls?",RadioButton,TabControl,Button,CheckBox,1
+In what year did Microsoft release Windows 2000?,2000,1998,1999,2001,1
+"The ""XP"" in Windows XP stands for what?",Experience,Express,Export,Explotion,1
+What was the codename for Windows Vista prior to its release?,Longhorn,Crossbow,Whidbey,Rosario,1
+Which technology was not part of the .NET Framework 3.0 release?,Generics,WPF,WCF,Windows Cardspace,1
+What is the name of a famous O/R mapper for .NET?,LLBLGen Pro,BBLGen Pro,LLBGen Pro,BLBLGen Pro,2
+What is Ayende Rahien's real name?,Oren Eini,Roy Osherove,Aaron Rahien,Jacob Tobias,2
+Who is the author of the blog ISerializable?,Roy Osherove,Jeremy D Miller,Anders Norås,Michael Fethers,2
+Who has written The Art of Unit Testing,Roy Osherove,Oren Eini,Tim Heuer,John Lam,2
+Who is the developer behind the dynamic mocking framework Rhino.Mocks?,Oren Eini,Michael Fethers,Keith Elder,Scott Galloway,2
+What is the name of the framework for creating business layers by developer Rockford Lhotka?,CSLA.NET,Oslo,Entity Framework,NHibernate,2
+Who is the author of the Lazycoder blog?,Scott Koon,Rockford Lhotka,Jeff Atwood,Bill Gates,2
+Which software company has created the FogBugz bug tracking system?,Fog Creek Software,Object Mentor Inc.,Global 360,Microsoft,2
+What does Dan North call the development technique he conceived in 2003?,BDD,DDD,Scrum,Waterfall,2
+Who is the person most closely asosiated with Domain-Driven Design?,Eric Evans,Dan North,Steve Jobs,Rockford Lhotka,2
+What is the nick name of Robert C. Martin of Object Mentor?,Uncle Bob,Rob the Bob,Mart the Fart,The RCM,2
+What is Deep Fried Bytes?,A podcast,A music app,A MVC framework,Compiled byte code,2
+What is NOT a dependency injection framework for .NET?,NUnit,Ninject,Spring.NET,Castle/Windsor,2
+What is NOT a unit testing framework for .NET?,Testilence,NUnit,DbUnit.NET,MbUnit,2
+What is NOT an object relational mapper for .NET?,Torque,Castle ActiveRecord,LLBLGen,NHibernate,2
+What is the name of the automated continuous integration server from ThoughtWorks?,CruiseControl.NET,TeamCity,CIServer 2000,CodeCrunch.NET,2
+What is the name of the continuous integration server from JetBrains?,TeamCity,CruiseControl.NET,nDepend,Ninject,2
+Who created the famous .NET Reflector tool?,Lutz Roeder,Scott Bellware,Eric Evans,Scott Gu,2
+Who bought Reflector from Lutz Roeder?,Red Gate Software,Developer Express,Infragistics,Microsoft,2
+What product can you buy from Red Gate Software?,ANTS Profiler,Refactor!,Paint.NET,NHibernate,2
+In what version of C# did we get extension methods?,C# 3.0,C# 2.0,C# 1.1,C# 4.0,2
+What is a language NOT running on the CLR?,Lua,Ook#,IronPython,F#,2
+What is the composite application guidanse for WPF and SIlverlight called? ,Prism,Glasslight,Concert,CAB 4 XAML,2
+What is an open source data visualization component for WPF and Silverlight?,Visifire,Charts in Light,Dundas Chart,VisualData,2
+What is NOT a mocking framework for .NET?,Mock-you.NET,Rhino.Mocks,NMock,moq,2
+What is Udi Dahan's open source messaging framework called?,nServiceBus,nMessages,InternetBus,UdiMessageBus,2
+What is NOT a functional programming language?,Perl,F#,Haskell,Lisp,2
+What programming language is functional?,Erlang,BASIC,Python,C++,2
+What in NOT an interpreted programming language?,Fortran,Lua,Ruby,VBScript,2
+What is NOT a compiled programming language?,Ruby,Visual Foxpro,Objective-C,C,2
+The first event to be triggered in an aspx page is,Page_Init(),Page_Load(),Page_click(),DataBind(),2
+What is the extension of a web user control file?,.ascx,.aspx,.ashx,.asmx,2
+How do you explicitly kill a user session in ASP.NET?,Session.Abandon(),Session.Close(),Session.Discard(),Session.End(),2
+Which processor has a 32-bit Data Bus and a 24-bit Address Bus?,80386SX,80486SX,80386DX,80286,2
+"Your system boots up but you don't hear a beep, which part should you check first?",Speaker,RAM,System Board,CPU,2
+Where in an HTML document is the correct place to refer to an external style sheet?,In the <head> section,Between head and body,At the end of the document,In the <body> section,2
+Which HTML tag is used to define an internal style sheet?,<style>,<css>,<stylesheet>,<script>,2
+Which HTML attribute is used to define inline styles?,style,text,css,font,2
+Which property is used to change the background color in CSS?,background-color,bgcolor,color,bg-color,2
+How do you change the font of an element in CSS?,font-family,font-face,f,font-style,2
+Which of the following is an XML-based service IDL that defines the service interface and its implementation characteristics?,WSDL,UDDI,SOAP,Path,2
+What is a computing architecture where software modules or components are exposed as services on a network?,SOA,DNS,MSMQ,.NET,2
+Under which of the following environments does your program’s execution code run?,CLR,MSIL,CLS,VB.NET,2
+What is the compiler called that converts IL code into platform-specific code?,JIT,JTI,MSIL-converter,Metadata,2
+Which of the following languages is not part of the current .NET languages?,FoxPro,Visual Basic,C#,C++,2
+"Which of the following is a value type, and not a reference type?",enum,delegate,array,class,2
+Hiding the implementation and exposing the interface is a concept of OOP called?,Encapsulation,Polymorphism,Overloading,Static,2
+What is the output format of the file the C# compiler produces?,IL,Byte code,Hex dump,Intel Assembly,2
+Which of the following is not a method of System.Object?,Clone,GetType,ToString,Equals,2
+"In order to compile a C# program from the command line, what command would you use?",csc,daml,comp,cmd,2
+Which of the following is not a C# keyword?,implements,if,delegate,private,2
+What is the name given to the type of assembly that contains localized resources?,Satellite,Spoke,Hub,Sputnik,2
+How is the metadata for an assembly stored?,XML in manifest,.ini files,Registry,Type Library file,2
+What tool is used to manage the assemblies in the Global Assembly Cache?,gacutil.exe,gacmgr.exe,gassy.exe,al.exe,2
+Microsoft first introduced the operating environment named Windows in what year?,1985,1983,1981,1987,2
+"What Microsoft product was known as ""Astoria"" prior to its release?",ADO.NET Data Services,LINQ to SQL,LINQ to XML,Silverlight,2
+In what year was the .NET Framework version 2.0 released?,2005,2002,2003,2004,2
+In what year was the .NET Framework version 3.0 released?,2006,2004,2005,2007,2
+In what year was the .NET Framework version 3.5 released?,2007,2008,2006,2005,2
+In what year was the .NET Framework version 1.1 released?,2003,2000,2001,2002,2
+In what year was the .NET Framework version 1.0 released?,2002,2000,2001,1999,2
+Partial classes was introduced in what version of the .NET framework?,Version 2.0,Version 1.1,Version 3.0,Version 1.0,2
+Anonymous methods was introduced in what version of the .NET framework?,Version 2.0,Version 1.1,Version 3.0,Version 3.5,2
+"What was first known as ""WinFX""?",.NET Framework 3.0,WPF,Silverlight 1.0,Windows Vista,2
+Language Integrated Query (LINQ) was introduced in what .NET release?,Version 3.5,Version 3.0,Version 3.5 SP1,Version 2.0,2
+Expression trees and lambda methods was introduced in what version of the .NET framework?,Version 3.5,Version 3.0,Version 2.0,Version 4.0,2
+Extension methods was introduced in what version of the .NET framework?,Version 3.5,Version 3.0,Version 3.5 SP1,Version 2.0,2
+Which programming language has Anders Hejlsberg NOT created?,FORTRAN,C#,Delphi,J++,2
+In what year was the .NET project publicly announced?,2000,1998,2001,1999,2
+ASP.NET AJAX was formerly code-named what?,Atlas,Astoria,MS-Ajax,Whidbey,2
+ASP.NET AJAX was first developed to work with which .NET framework?,Version 2.0,Version 1.1,Version 3.0,Version 3.5,2
+ASP.NET AJAX was released as part of which .NET framework?,Version 3.5,Version 2.0,Version 3.0,Not part of any,2
+In what year was the term Ajax coined?,2005,2000,1996,2002,2
+Who is NOT famous for developing the Unified Modeling Language?,Michael Fethers,Grady Booch,Ivar Jacobsen,James Rumbaugh,2
+"Who coined the term ""dependency injection""?",Martin Fowler,Bill Gates,Scott Hanselman,Jeff Atwood,2
+Who is considered to be the father of modern computer science?,Alan Turing,Edsger W. Dijkstra,John Quick,Julius Whidbey,2
+Ken Schwaber and Jeff Sutherland is know for defining what?,Scrum,Ajax,UML,OOP,2
+What is a tool that will help you create unit tests?,Pex,FxCop,SharpDevelop,SnippetCompiler,2
+What tool will perform static analysis on your code?,NDepend,MbUnit,NHibernate,Windows Carspace,2
+Who is a host of the .NET Rocks podcast?,Richard Campbell,Joe Stagner,Jeffrey Palermo,Craig Shoemaker,3
+Who is the developer from Novel who started the Mono project?,Miguel de Icaza,Phil Haack,Kevin Dente,Ted Neward,3
+Who is the main man behind IronRuby?,John Lam,Shawn Wildermuth,Jeremy D Miller,Udi Dahan,3
+Who owns the blog called The Shade Tree Developer?,Jeremy D Miller,Scott Bellware,David Laribee,Dan North,3
+What is NOT a dependency injection framework for .NET?,nDepend,Unity,StructureMap,Spring.NET,3
+What is NOT a unit testing framework for .NET?,Unity,csUnit,MbUnit,xUnit.net,3
+Whom are the developers of CodeRush?,Developer Express,Infragistics,JetBrains,Rushmore Code House,3
+What is a language NOT running on the CLR?,Haskell,Boo,Brainf*ck,VB.NET,3
+What is Oren Eini's messaging framework called?,Rhino ServiceBus,nServiceBus,MSMQ,Mass Transit,3
+How many commands are there in the brainfuck programming language?,8,4,16,32,3
+A problem with parity error indicates a problem with what?,memory,hard drive,I/O Controller,power supply,3
+In what year did the World Wide Web Consortium release its draft of XML?,1996,1995,1994,1997,3
+Which of the following Technology helps to locate the web services?,UDDI,WSDL,SOAP,XML,3
+What is the term used to describe the process the Runtime uses to find an assembly?,Probing,Searching,Resolving,Locating,3
+Trace switches can be set using which class?,TraceSwitch,DefaultTraceListener,TraceSwitches,Trace,3
+Which tool allows you to install an assembly into the GAC?,Ngen.exe,Mscorcfg.msc,Setup.exe,sn.exe,3
+ADO.NET synchronization API was introduced in what version of the .NET framework?,Version 3.5,Version 3.0,Version 1.1,Version 2.0,3
+What was the original name of the C# language?,Cool,C+++,Anders C++,Another C++,3
+When was C# 3.0 released?,November 2007,May 2007,November 2006,May 2006,3
+"Who is the father of the wiki, who developed WikiWikiWeb in 1994?",Ward Cunningham,Grady Booch,Martin Fowler,Bill Gates,3
+What Norwegian is known as one of the fathers of object oriented programming?,Ole-Johan Dahl,Anders Hejlsberg,Vebjørn Tandberg,Rune Grothaug,3
+Ivar Jacobsen is famous for inventing what?,Use-cases,Scrum,Cowboy coding,SOA,3
+"Who wrote Object-Oriented Software Construction, published in 1988?",Bertrand Meyer,Grady Booch,Scott Koon,Rockford Lhotka,3
+What program language was designed by Bertrand Meyer?,Eiffel,Simula,C++,C#,3
+Who created the Extreme Programming methodology?,Kent Beck,Michael Fethers,Jeremy D Miller,Udi Dahan,3
+Who was NOT one of the original 17 signatories of the Agile Manifesto?,James Rumbaugh,Kent Beck,Robert C. Martin,Martin Fowler,3
+Who is the owner of the scrummaster trademark?,Ken Schwaber,Michael Fethers,Bill Gates,Dan North,3
+What method(s) must be used with the Application object to ensure that only one process accesses a variable at a time?,Lock(),Asynchroize(),Lock() and UnLock(),Synchronize(),2
+What HTML element is the asp:Label control rendered as when the target is Internet Explorer?,<span>,<label>,<div>,<table>,2
+"Given an ASP.NET Web Form called WebForm1, what class does the WebForm1 class inherit from by default?",System.Web.UI.Page,System.Web.UI.Form,System.Web.GUI.Page,System.Web.Form,2
+What static method on ThreadPool do you use to run a method using a new thread?,QueueUserWorkItem,CreateDelegate,RunThreadJob,StartWorkerThread,2
+What is not part of the ThreadPriority enumeration?,Medium,AboveNormal,Lowest,Highest,2
+What is not a valid thread state?,StopRequested,SuspendRequested,Unstarted,WaitSleepJoin,3
+What is not a valid thread state?,Idle,Running,Stopped,Aborted,2
+What is not a valid thread state?,ThinkingAboutIt,Running,Stopped,Suspended,1
+What is not an atomic operation on the Interlocked class?,Subtract,Increment,Decrement,Add,3
+What is not an atomic operation on the Interlocked class?,Write,Exchange,CompareExhange,Read,3
+What can you use to determine if an object o is a value type?,o.GetType().IsValueType,o.IsValueType,o.GetType().IsNullable,o == ValueType,2
+In what namespace do you find the Stream class?,System.IO,System.Streams,System.Text,System,1
+In what namespace do you find the String class?,System,System.Text,System.Objects,System.Collections,1
+In what namespace do you find the StringBuilder class?,System.Text,System,System.String,System.IO,1
+In what namespace do you find the Exception class?,System,System.Exceptions,System.Errors,System.OhNo,1
+In what namespace do you find the Object class?,System,System.Classes,System.Core,System.Entities,1
+In what namespace do you find the Array class?,System,System.Collections,System.Lists,System.Core,1
+What is not a value type?,String,SByte,Int64,Decimal,1
+What is not a value type?,Image,Double,DateTime,Char,1
+What is the size of an Int32?,4 bytes,32 bytes,8 bytes,16 bytes,2
+What is the size of a System.Double?,8 bytes,16 bytes,32 bytes,4 bytes,2
+What is the size of a signed byte (System.SByte)?,1 byte,2 bytes,3 bytes,4 bytes,2
+What is the size of a System.Char?,2 bytes,1 byte,4 bytes,8 bytes,2
+What is the size of a System.Boolean?,1 byte,1 bit,2 bytes,1/2 byte,1
+What is the size of a System.DateTime?,8 bytes,4 bytes,16 bytes,32 bytes,3
+What is the range of a System.Byte?,0 to 255,-128 to 127,0 to 8,0 to 64,2
+What is the max value of an Int32?,2.147.483.647,32.767,4.294.967.295,31.999.999.999,2
+What of the following .net value types is the largest (in term of storage)?,Decimal,DateTime,Int64,Double,3
+Checking a computer program for errors is called what?,Debugging,Bugging,Correcting,Syntaxing,1
+What is not the name of a web testing tool?,SandCastle,Selenium,Watir,Watin,2
+Who created CruiseControl.NET?,ThoughtWorks,Microsoft,Red Gate,Phil Haack,2
+What assembly does not contain classes that are considered a part of the Base Class Library?,Microsoft.dll,mscorlib.dll,System.dll,System.core.dll,2
+What namespace allows you to create applications that run as a service within Windows?,System.ServiceProcess ,System.ServiceModel,System.Service,System.Windows,2
+"Which namespace do you use for protocols like HTTP, FTP, and SMTP?",System.Net,System.Web,System.Protocols,System.Messaging,2
+What .Net namespace do you use to play system sounds and .wav files?,System.Media,System.Sound,System.Noice,System.Speakers,2
+What namespace allow you to customize the way your application upgrades when using ClickOnce?,System.Deployment,System.ClickOnce,System.ServiceModel,System.Management,2
+What namespace provides easy access to Active Directory from managed code?,System.DirectoryServices,System.ActiveDirectory,System.Management,System.LDAP,2
+What .net namespace gives you objects to access COM+ services?,System.EnterpriseServices,System.Integration,System.ComServices,System.Messaging,2
+What .net framework namespace allows you to administer message queues on the network?,System.Messaging,Microsoft.MSMQ,System.Services,System.Web.Messaging,2
+Which namespace do you need to raise an event on a specified interval?,System.Timers,System.Threading,System.Jobs,System.Intervals,2
+Where do you find the core WPF classes?,System.Windows,System.Windows.Forms,System.WPF,System.Core,2
+"What is the default access specifier for a Top-level Class, which are not nested into other Classes?",internal,public,private,protected,1
+Why can’t you specify the accessibility modifier for methods inside the interface,They all are public,They all are protected,They all are private,They are all internal,1
+The C# keyword int maps to which .NET type?,Int32,Int16,Int64,Int128,1
+What is not a creational design pattern?,Facade,Factory Method,Builder,Singleton,2
+What design pattern encapsulates an algorithm inside a class?,Strategy,Factory Method,Builder,Proxy,2
+What design pattern implements a way of notifying change to a number of classes?,Observer,Iterator,Command,Composite,2
+What design pattern is used to capture and restore an object's internal state?,Memento,Observer,Strategy,Prototype,2
+What do we call an object representing another object?,Proxy,Flyweight,Singleton,Clone,1
+What do we call a single class that represents an entire subsystem?,Facade,Bridge,Singleton,Factory,2
+What do we call a general reusable solution to a commonly occurring problem in software design?,Design Pattern,Solution Pattern,Code Pattern,General Pattern,1
+The .NET Framework provides a runtime environment called..?,CLR,RMT,RCT,RC,1
+In an ASP.NET forms page the object which contains the user name is..,Page.User.Identity,Page.User.IsInRole,Page.User.Name,None of these,2
+The .NET framework provides automatic memory management using a technique called..,Garbage Collection,Serialization,Assemblies,Overriding,1
+What is the base class from which all Web forms inherit?,Page Class,Master Page,Session Class,WebForms Class,1
+Which of the following transfer execution directly to another page?,Server.Transfer,Server.Redirect,Server.GoTo,Server.Delegate,1
+In .NET the operation of reading metadata and using its contents is known as..,Reflection,Enumeration,Binding,Serialization,1
+If you want to convert an object into a stream of bytes then the process is called what?,Serialization,Threading,RCW,AppDomain,1
+The technique that allow code to make function calls to .NET applications on other processes and on other machines is..,.NET Remoting,.NET Threading,.NET RMT,ASP.NET,1
+In ASP.NET the sessions can be dumped by using..,Session.Abandon,Session.Dump,Session.Exit,Session.Kill,2
+How many classes can a single .NET DLL contain?,Many,None,One,Two,1
+The actual work process of ASP.NET is taken care of by..,aspnet_wp.exe,aspnet_isapi.dll,inetinfo.exe,asp_net.exe,2
+ASP.NET separates the HTML output from program logic using a feature named..,Code-behind,Code-front,Exception,None of these,1
+"In networking, what is meant by P2P?",Peer to Peer,People to People,Program to Program,Plan to Program,1
+SQL stands for..,Structured Query Language,Standard Query Language,Storage Queuing Language,Storage Query Language,2
+DDL stands for..,Data Definition Language,Data Division Language,Data Dividing Language,Digital Defining Language,2
+The SQL*PLUS Command used to delete an existing table is..,DROP TABLE,DELETE TABLE,DEL TABLE,REMOVE TABLE,1
+DML stands for..,Data Manipulation Language,Discrete Manipulation Language,Data Modifying Language,Digital Manipulation Language,3
+The order of sorting can be changed by SQL command..,order by,order in,order to,order from,1
+The SQL command used to avoid the selection of duplicate rows is..,DISTINCT,UNIQUE,NODUPLICATES,DISCRETE,1
+"In order to fetch data from database, which of the following SQL command is used?",SELECT,GET,RECOVER,FETCH,1
+The structure of a table can be seen by using the SQL command..,describe tablename,struct tablename,structure tablename,explain tablename,2
+Databases: Joining a Table to itself is called..,Self Join,Outer Join,Inner Join,Recusive Join,2
+Microsoft's virtualization system released in 2008 is called..,Hyper-V,Virtual PC,Wix,Ultra-V,1
+What is the lightweight alternative to XML used for serialization in Ajax?,JSON,XAML,Boo,CORBA,2

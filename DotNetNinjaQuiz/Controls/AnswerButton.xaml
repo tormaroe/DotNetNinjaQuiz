@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="DotNetNinjaQuiz.Controls.AnswerButton"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Height="auto" Width="auto">
+    <Grid>
+        <Border x:Name="_button"
+                BorderBrush="Blue" BorderThickness="2" 
+                Background="Black"
+                CornerRadius="10,10,10,10" Margin="10,5,10,5">
+            
+            <Viewbox>
+                <TextBlock Text="" x:Name="_text"
+                           HorizontalAlignment="Center" VerticalAlignment="Center" 
+                           FontWeight="Bold" FontSize="24" 
+                           FontFamily="Verdana" Foreground="White"
+                           TextWrapping="Wrap"
+                           Margin="20,0"/>
+            </Viewbox>
+        </Border>
+    </Grid>
+</UserControl>

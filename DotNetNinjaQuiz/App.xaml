@@ -1,0 +1,11 @@
+﻿<Application x:Class="DotNetNinjaQuiz.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="GameWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="UserControlOverlayRectangleStyle" TargetType="{x:Type Rectangle}">
+            <Setter Property="Fill" Value="#FF151515"/>
+            <Setter Property="Opacity" Value="0.61"/>
+        </Style>
+    </Application.Resources>
+</Application>

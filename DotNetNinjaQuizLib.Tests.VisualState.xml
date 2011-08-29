@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Documents and Settings\1tormar\Desktop\OnlineDocs\DotNet Ninja\DotNetNinjaQuiz\DotNetNinjaQuizLib.Tests.nunit</TopNode>
+  <SelectedNode>[0-1000]C:\Documents and Settings\1tormar\Desktop\OnlineDocs\DotNet Ninja\DotNetNinjaQuiz\DotNetNinjaQuizLib.Tests.nunit</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Documents and Settings\1tormar\Desktop\OnlineDocs\DotNet Ninja\DotNetNinjaQuiz\DotNetNinjaQuizLib.Tests.nunit" Expanded="true">
+      <Nodes>
+        <Node UniqueName="[0-1008]C:\Documents and Settings\1tormar\Desktop\OnlineDocs\DotNet Ninja\DotNetNinjaQuiz\DotNetNinjaQuizLib.Test\bin\Debug\DotNetNinjaQuizLib.Test.dll" Expanded="true">
+          <Nodes>
+            <Node UniqueName="[0-1009]DotNetNinjaQuizLib" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1010]DotNetNinjaQuizLib.Test" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1006]DotNetNinjaQuizLib.Test.QuestionDistribution" Expanded="true">
+                      <Nodes>
+                        <Node UniqueName="[0-1007]DotNetNinjaQuizLib.Test.QuestionDistribution.Test" />
+                      </Nodes>
+                    </Node>
+                    <Node UniqueName="[0-1001]DotNetNinjaQuizLib.Test.Questions" Expanded="true">
+                      <Nodes>
+                        <Node UniqueName="[0-1002]DotNetNinjaQuizLib.Test.Questions.Counts" />
+                        <Node UniqueName="[0-1005]DotNetNinjaQuizLib.Test.Questions.GetDifficultQuestion" />
+                        <Node UniqueName="[0-1003]DotNetNinjaQuizLib.Test.Questions.GetEasyQuestion" />
+                        <Node UniqueName="[0-1004]DotNetNinjaQuizLib.Test.Questions.GetMediumQuestion" />
+                      </Nodes>
+                    </Node>
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+      </Nodes>
+    </Node>
+  </Nodes>
+</VisualState>

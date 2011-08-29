@@ -1,0 +1,61 @@
+﻿<Window x:Class="DotNetNinjaQuiz.GameWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:quizControls="clr-namespace:DotNetNinjaQuiz.Controls"
+    Title="Window1" Height="500" Width="700" Foreground="White"
+        WindowStyle="None"
+        WindowState="Maximized"
+        KeyDown="Window_KeyDown">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>        
+            
+        <TextBlock Text="The .Net Ninja Quiz" x:Name="_screenTitle"
+                   FontFamily="Verdana" FontSize="24" FontWeight="Bold"
+                   Grid.Row="0" Padding="20,15,0,10" />
+
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="2*" />
+            </Grid.ColumnDefinitions>
+            
+            <quizControls:GameProgressLadder x:Name="_progressLadder" Grid.Column="2" Margin="0,10,20,10" />
+        </Grid>
+
+            
+        
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <quizControls:QuestionBox x:Name="_questionBox" Grid.Row="0" Grid.ColumnSpan="2" />
+            
+            <quizControls:AnswerButton x:Name="_answerAButton" Grid.Row="1" Grid.Column="0" />
+            <quizControls:AnswerButton x:Name="_answerBButton" Grid.Row="1" Grid.Column="1" />
+            <quizControls:AnswerButton x:Name="_answerCButton" Grid.Row="2" Grid.Column="0" />
+            <quizControls:AnswerButton x:Name="_answerDButton" Grid.Row="2" Grid.Column="1" />
+                
+        </Grid>
+
+
+        <quizControls:GameOverDialog HorizontalAlignment="Stretch" Margin="0,0,0,0" 
+                                     VerticalAlignment="Stretch" 
+                                     Width="Auto" Height="Auto" Visibility="Collapsed"
+                                     x:Name="GameOverControl" 
+                                     Grid.RowSpan="4" />
+    </Grid>
+</Window>

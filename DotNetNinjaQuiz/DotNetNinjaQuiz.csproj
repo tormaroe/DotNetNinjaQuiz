@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{267E27AA-6782-430E-B38B-B11BEC3A4B02}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotNetNinjaQuiz</RootNamespace>
+    <AssemblyName>DotNetNinjaQuiz</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Controls\AnswerButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\GameLevelSpoke.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\GameOverDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\GameProgressLadder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\QuestionBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GameWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameWindow.xaml.cs">
+      <DependentUpon>GameWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnswerSelectedEventArgs.cs" />
+    <Compile Include="Controls\AnswerButton.xaml.cs">
+      <DependentUpon>AnswerButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GameLevelSpoke.xaml.cs">
+      <DependentUpon>GameLevelSpoke.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GameOverDialog.xaml.cs">
+      <DependentUpon>GameOverDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GameProgressLadder.xaml.cs">
+      <DependentUpon>GameProgressLadder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\QuestionBox.xaml.cs">
+      <DependentUpon>QuestionBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GameWindowController.cs" />
+    <Compile Include="GameWindowView.cs" />
+    <Compile Include="gfx\EmpeddedImageService.cs" />
+    <Compile Include="gfx\ImageService.cs" />
+    <Compile Include="gfx\OverrideImageService.cs" />
+    <Compile Include="gfx\SoundEffect.cs" />
+    <Compile Include="gfx\SoundService.cs" />
+    <Compile Include="OverrideLevelsInfoImplementor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ServiceLocator.cs" />
+    <None Include="App.config" />
+    <Content Include="Data\questions.dbo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gfx\bg1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gfx\bg10.JPG" />
+    <Resource Include="gfx\bg11.JPG" />
+    <Resource Include="gfx\bg12.JPG" />
+    <Resource Include="gfx\bg2.JPG" />
+    <Resource Include="gfx\bg3.JPG" />
+    <Resource Include="gfx\bg4.JPG" />
+    <Resource Include="gfx\bg5.JPG" />
+    <Resource Include="gfx\bg6.JPG" />
+    <Resource Include="gfx\bg7.JPG" />
+    <Resource Include="gfx\bg8.JPG" />
+    <Resource Include="gfx\bg9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetNinjaQuizLib\DotNetNinjaQuizLib.csproj">
+      <Project>{997E2EEA-8710-4A51-8034-9989825E3917}</Project>
+      <Name>DotNetNinjaQuizLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gfx\bg13.JPG" />
+    <Resource Include="gfx\bg14.JPG" />
+    <Resource Include="gfx\bg15.JPG" />
+    <Resource Include="gfx\bg16.JPG" />
+    <Resource Include="gfx\bg17.JPG" />
+    <Resource Include="gfx\bg18.JPG" />
+    <Resource Include="gfx\bg19.JPG" />
+    <Resource Include="gfx\bg20.JPG" />
+    <Resource Include="gfx\bg21.JPG" />
+    <Resource Include="gfx\bg22.JPG" />
+    <Resource Include="gfx\bg23.JPG" />
+    <Resource Include="gfx\bg24.JPG" />
+    <Resource Include="gfx\bg25.JPG" />
+    <Resource Include="gfx\bg26.JPG" />
+    <Resource Include="gfx\bg27.JPG" />
+    <Resource Include="gfx\bg28.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gfx\sounds\applause-2.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="gfx\sounds\crowd_laugh_1.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="gfx\sounds\sound101.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="gfx\sounds\sound106.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="gfx\sounds\sound63.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

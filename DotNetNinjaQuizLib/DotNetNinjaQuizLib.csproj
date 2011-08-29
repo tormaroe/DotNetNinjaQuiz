@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{997E2EEA-8710-4A51-8034-9989825E3917}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DotNetNinjaQuizLib</RootNamespace>
+    <AssemblyName>DotNetNinjaQuizLib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Db4objects.Db4o, Version=7.4.71.12224, Culture=neutral, PublicKeyToken=6199cd4f203aa8eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\Db4objects.Db4o.dll</HintPath>
+    </Reference>
+    <Reference Include="Db4objects.Db4o.Linq, Version=7.4.71.12224, Culture=neutral, PublicKeyToken=6199cd4f203aa8eb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\Db4objects.Db4o.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Domain\DifficultyDecider_Difficult.cs" />
+    <Compile Include="Domain\DifficultyDecider_Easy.cs" />
+    <Compile Include="Domain\DifficultyDecider_EasyToMedium.cs" />
+    <Compile Include="Domain\DifficultyDecider_Medium.cs" />
+    <Compile Include="Domain\DifficultyDecider_MediumToHard.cs" />
+    <Compile Include="Domain\DifficultyLevel.cs" />
+    <Compile Include="Domain\GameController.cs" />
+    <Compile Include="Domain\GameLevel.cs" />
+    <Compile Include="Domain\IDecideDifficultyForGameLevel.cs" />
+    <Compile Include="Domain\QuestionRandomizerService.cs" />
+    <Compile Include="Domain\QuizPlayer.cs" />
+    <Compile Include="Domain\QuizProgress.cs" />
+    <Compile Include="Domain\QuizQuestion.cs" />
+    <Compile Include="Domain\QuizSession.cs" />
+    <Compile Include="Domain\UsageInfo.cs" />
+    <Compile Include="Factories\GameLevelFactory.cs" />
+    <Compile Include="Persistance\IQuestionRepository.cs" />
+    <Compile Include="Persistance\ObjectDatabaseQuestionRepository.cs" />
+    <Compile Include="Persistance\QuestionLevelSummary.cs" />
+    <Compile Include="Persistance\QuestionRepositoryFactory.cs" />
+    <Compile Include="Presenters\AnswerCode.cs" />
+    <Compile Include="Presenters\CommitAnswerResult.cs" />
+    <Compile Include="Presenters\QuestionPresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
