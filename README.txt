@@ -1,19 +1,20 @@
-
-PS: This projects was first hosted on http://code.google.com/p/wanna-ba-a-dotnet-ninja/
+ï»¿
+This projects was initially hosted on 
+http://code.google.com/p/wanna-ba-a-dotnet-ninja/
 
 --------------------------------------------------------------------------------
 	README for DotNetNinjaQuiz
-	Created by Torbjørn Marø (a.k.a Marosoft)
+	Created by TorbjÃ¸rn MarÃ¸ (a.k.a Marosoft)
 --------------------------------------------------------------------------------
 
 Shortcuts used in DotNetNinjaQuiz:
 
 	ENTER   Load new/next question
-	A   Ansver alternative A
-	B	  Ansver alternative B
-	C	  Ansver alternative C
-	D	  Ansver alternative D
-	ENTER	  Hit the enter key to commit an answer and see the result
+	A 	Ansver alternative A
+	B	Ansver alternative B
+	C	Ansver alternative C
+	D	Ansver alternative D
+	ENTER	Hit the enter key to commit an answer and see the result
 	
 See https://github.com/tormaroe/DotNetNinjaQuiz/ for more details about 
 this software.
@@ -22,7 +23,7 @@ this software.
 	LICENSE
 --------------------------------------------------------------------------------
 
-Copyright (c) 2009-2011 Torbjørn Marø 
+Copyright (c) 2009-2011 TorbjÃ¸rn MarÃ¸ 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
